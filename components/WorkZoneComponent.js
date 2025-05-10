@@ -111,9 +111,6 @@ class WorkZone extends HTMLElement {
             this.updateTransform()
             this.updateAxis()
             this.updateScaleInfo()
-            
-           
-            this.scaleSvgElements()
         });
         
         viewport.addEventListener('mousedown', (e) => {
